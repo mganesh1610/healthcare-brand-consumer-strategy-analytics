@@ -1,0 +1,7 @@
+service_line,program_tier,annual_budget_usd,wait_days_baseline,capacity_utilization_pct,access_readiness_gate,baseline_wasted_spend_usd,optimized_wasted_spend_usd,baseline_new_patients,optimized_new_patients,market_share_baseline_pct,market_share_post_plan_pct,patient_retention_rate_pct
+Orthopedics & Sports Medicine,Center of Excellence (COE),420000,16.2,94.0,PIVOT_TO_ACCESS_READY_DIGITAL,123900.0,41160.0,2307,2803,24.5,26.4,84.99
+Cardiology & Heart Care,Center of Excellence (COE),390000,11.4,84.5,SCALE_ACQUISITION_CAMPAIGNS,31980.0,24960.0,2856,3784,22.8,25.6,82.6
+Neurosciences,Center of Excellence (COE),360000,18.5,95.2,PIVOT_TO_ACCESS_READY_DIGITAL,106200.0,35280.0,1977,2402,21.0,22.9,83.57
+Gastroenterology & Nutrition,Specialty Medical Program,245000,8.2,76.0,SCALE_ACQUISITION_CAMPAIGNS,20090.0,15680.0,1794,2377,16.4,19.2,83.37
+Dermatology & Allergy,Specialty Medical Program,195000,6.8,72.5,SCALE_ACQUISITION_CAMPAIGNS,15990.0,12480.0,1428,1892,14.9,17.7,85.37
+Urgent & Specialty Primary Care,Specialty Medical Program,290000,2.1,68.0,SCALE_ACQUISITION_CAMPAIGNS,23780.0,18560.0,2124,2814,19.2,22.0,85.14
