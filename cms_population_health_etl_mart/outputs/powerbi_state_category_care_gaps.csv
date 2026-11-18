@@ -1,0 +1,89 @@
+state_abbr,state_desc,measure_category,measure_observations,counties_covered,mean_care_gap_or_risk_pct,max_county_risk_pct
+AK,Alaska,Disability,210,30,12.98,49.0
+AK,Alaska,Health Outcomes,360,30,17.92,46.5
+AK,Alaska,Health Risk Behaviors,120,30,24.59,45.9
+AK,Alaska,Health Status,90,30,17.71,37.8
+AK,Alaska,Health-Related Social Needs,210,30,18.41,46.6
+AK,Alaska,Prevention,210,30,31.3,68.2
+AL,Alabama,Disability,469,67,15.92,50.4
+AL,Alabama,Health Outcomes,804,67,22.11,59.8
+AL,Alabama,Health Risk Behaviors,268,67,25.85,49.8
+AL,Alabama,Health Status,201,67,20.16,39.4
+AL,Alabama,Health-Related Social Needs,469,67,20.12,42.9
+AL,Alabama,Prevention,469,67,24.46,60.5
+AR,Arkansas,Disability,525,75,16.51,48.2
+AR,Arkansas,Health Outcomes,900,75,21.99,55.6
+AR,Arkansas,Health Risk Behaviors,300,75,26.86,48.4
+AR,Arkansas,Health Status,225,75,21.3,36.9
+AR,Arkansas,Health-Related Social Needs,525,75,19.25,39.3
+AR,Arkansas,Prevention,525,75,26.54,59.6
+AZ,Arizona,Disability,105,15,14.4,45.9
+AZ,Arizona,Health Outcomes,180,15,18.9,46.3
+AZ,Arizona,Health Risk Behaviors,60,15,22.42,41.8
+AZ,Arizona,Health Status,45,15,18.41,31.9
+AZ,Arizona,Health-Related Social Needs,105,15,18.05,35.5
+AZ,Arizona,Prevention,105,15,28.83,55.7
+CA,California,Disability,406,58,12.76,40.1
+CA,California,Health Outcomes,696,58,16.99,43.7
+CA,California,Health Risk Behaviors,232,58,21.83,41.0
+CA,California,Health Status,174,58,18.15,32.6
+CA,California,Health-Related Social Needs,406,58,17.88,40.6
+CA,California,Prevention,406,58,25.96,50.7
+CO,Colorado,Disability,448,64,11.78,40.7
+CO,Colorado,Health Outcomes,768,64,16.92,40.3
+CO,Colorado,Health Risk Behaviors,256,64,20.04,36.7
+CO,Colorado,Health Status,192,64,15.89,28.7
+CO,Colorado,Prevention,448,64,26.34,52.0
+CT,Connecticut,Disability,63,9,10.08,29.0
+CT,Connecticut,Health Outcomes,108,9,16.92,40.5
+CT,Connecticut,Health Risk Behaviors,36,9,21.7,37.6
+CT,Connecticut,Health Status,27,9,14.87,18.1
+CT,Connecticut,Health-Related Social Needs,63,9,15.66,35.5
+CT,Connecticut,Prevention,63,9,20.1,31.2
+DC,District of Columbia,Disability,7,1,8.59,21.6
+DC,District of Columbia,Health Outcomes,12,1,13.88,32.8
+DC,District of Columbia,Health Risk Behaviors,4,1,20.13,32.8
+DC,District of Columbia,Health Status,3,1,12.13,14.1
+DC,District of Columbia,Health-Related Social Needs,7,1,16.4,37.0
+DC,District of Columbia,Prevention,7,1,22.0,31.0
+DE,Delaware,Disability,21,3,12.08,34.8
+DE,Delaware,Health Outcomes,36,3,19.56,48.5
+DE,Delaware,Health Risk Behaviors,12,3,22.78,39.9
+DE,Delaware,Health Status,9,3,16.33,21.1
+DE,Delaware,Health-Related Social Needs,21,3,15.2,35.0
+DE,Delaware,Prevention,21,3,21.71,37.5
+FL,Florida,Disability,469,67,13.6,43.6
+FL,Florida,Health Outcomes,804,67,19.37,51.4
+FL,Florida,Health Risk Behaviors,268,67,23.8,43.8
+FL,Florida,Health Status,201,67,18.31,31.3
+FL,Florida,Prevention,469,67,25.49,57.0
+GA,Georgia,Disability,1113,159,14.25,45.5
+GA,Georgia,Health Outcomes,1908,159,20.25,54.7
+GA,Georgia,Health Risk Behaviors,636,159,25.18,46.8
+GA,Georgia,Health Status,477,159,19.52,35.2
+GA,Georgia,Health-Related Social Needs,1113,159,19.94,43.4
+GA,Georgia,Prevention,1113,159,25.6,61.5
+HI,Hawaii,Disability,35,5,12.42,38.2
+HI,Hawaii,Health Outcomes,60,5,17.03,46.6
+HI,Hawaii,Health Risk Behaviors,20,5,24.05,48.2
+HI,Hawaii,Health Status,15,5,16.43,28.7
+HI,Hawaii,Health-Related Social Needs,35,5,17.29,32.4
+HI,Hawaii,Prevention,35,5,23.47,40.4
+ID,Idaho,Disability,308,44,14.24,44.7
+ID,Idaho,Health Outcomes,528,44,18.32,42.3
+ID,Idaho,Health Risk Behaviors,176,44,21.31,36.9
+ID,Idaho,Health Status,132,44,16.96,25.7
+ID,Idaho,Health-Related Social Needs,308,44,14.29,36.5
+ID,Idaho,Prevention,308,44,27.25,47.6
+IL,Illinois,Disability,349,50,12.31,39.7
+IL,Illinois,Health Outcomes,598,50,19.11,47.9
+IL,Illinois,Health Risk Behaviors,200,50,23.33,40.3
+IL,Illinois,Health Status,150,50,17.07,28.8
+IL,Illinois,Health-Related Social Needs,350,50,16.16,36.1
+IL,Illinois,Prevention,350,50,24.45,47.7
+US,United States,Disability,7,1,11.59,30.0
+US,United States,Health Outcomes,12,1,17.34,37.4
+US,United States,Health Risk Behaviors,4,1,21.77,36.0
+US,United States,Health Status,3,1,15.87,19.2
+US,United States,Health-Related Social Needs,7,1,15.43,32.0
+US,United States,Prevention,7,1,23.16,36.1

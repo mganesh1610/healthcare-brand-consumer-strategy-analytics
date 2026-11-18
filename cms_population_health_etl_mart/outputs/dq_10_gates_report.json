@@ -1,0 +1,105 @@
+{
+  "source_dataset": "CDC PLACES Local Data for Better Health (County REST API & Flat-File Feed)",
+  "source_url": "https://data.cdc.gov/resource/swc5-untb.json?$limit=50000&$order=:id",
+  "payload_sha256": "061da90d3ddd39b33d0c11cee92da17ece4378b78d7c9f660f70528b7c1e5261",
+  "expected_reference_sha256": "061da90d3ddd39b33d0c11cee92da17ece4378b78d7c9f660f70528b7c1e5261",
+  "total_source_records": 50000,
+  "promoted_fact_records": 50000,
+  "quarantined_records": 0,
+  "distinct_counties_and_locations": 648,
+  "distinct_measures": 40,
+  "distinct_states": 14,
+  "dq_gates_passed": 10,
+  "dq_gates_total": 10,
+  "top_priority_county_sample": [
+    {
+      "location_id": "02158",
+      "state_abbr": "AK",
+      "county_name": "Kusilvak",
+      "total_population": 8001,
+      "evaluated_measures": 40,
+      "composite_risk_index_pct": 29.42,
+      "outreach_priority_tier": "Priority 2 - Preventive Screening Outreach"
+    },
+    {
+      "location_id": "01011",
+      "state_abbr": "AL",
+      "county_name": "Bullock",
+      "total_population": 9897,
+      "evaluated_measures": 40,
+      "composite_risk_index_pct": 27.57,
+      "outreach_priority_tier": "Priority 2 - Preventive Screening Outreach"
+    },
+    {
+      "location_id": "01063",
+      "state_abbr": "AL",
+      "county_name": "Greene",
+      "total_population": 7341,
+      "evaluated_measures": 40,
+      "composite_risk_index_pct": 27.0,
+      "outreach_priority_tier": "Priority 2 - Preventive Screening Outreach"
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "PH-01",
+      "name": "Source-to-Warehouse Row Conservation",
+      "passed": true,
+      "detail": "50000 promoted + 0 quarantined = 50000"
+    },
+    {
+      "gate_id": "PH-02",
+      "name": "Zero Confidence-Interval Ordering Violations",
+      "passed": true,
+      "detail": "CI inversions = 0"
+    },
+    {
+      "gate_id": "PH-03",
+      "name": "100% Foreign-Key Star-Schema Integrity",
+      "passed": true,
+      "detail": "FK violations = 0"
+    },
+    {
+      "gate_id": "PH-04",
+      "name": "Relational Storage Integrity Check",
+      "passed": true,
+      "detail": "PRAGMA integrity_check = ok"
+    },
+    {
+      "gate_id": "PH-05",
+      "name": "Multi-State Population Coverage",
+      "passed": true,
+      "detail": "14 distinct states across 648 county/location entities"
+    },
+    {
+      "gate_id": "PH-06",
+      "name": "Preventive & Chronic Measure Catalog Coverage",
+      "passed": true,
+      "detail": "40 standardized CDC PLACES measures"
+    },
+    {
+      "gate_id": "PH-07",
+      "name": "Percentage Domain Bounds [0, 100]",
+      "passed": true,
+      "detail": "All standardized care-gap percentages within [0, 100]"
+    },
+    {
+      "gate_id": "PH-08",
+      "name": "Non-Negative Population Denominators",
+      "passed": true,
+      "detail": "0 negative county population denominators"
+    },
+    {
+      "gate_id": "PH-09",
+      "name": "Unique Composite Fact Keys",
+      "passed": true,
+      "detail": "50000 unique fact rows"
+    },
+    {
+      "gate_id": "PH-10",
+      "name": "SSRS & Power BI Mart Export Non-Empty",
+      "passed": true,
+      "detail": "50000 validated fact measures ready for BI consumption"
+    }
+  ]
+}
